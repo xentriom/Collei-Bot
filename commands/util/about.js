@@ -61,7 +61,7 @@ module.exports = {
                 content: `An error occured executing this command, <@${xen}> has been notified.`,
                 ephemeral: true
             });
-            console.log(`Error during Report command: ${error.message}`);
+            console.log(`Error during about command: ${error.message}`);
         }
     },
 };
