@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const { aCheck } = require('../../emoji.json');
+const { aCheck } = require('../../important/emoji.json');
 const cSug = process.env['Cult_Suggestion']
 const xen = process.env['xentriom']
 

@@ -1,8 +1,8 @@
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder } = require('discord.js');
 const { ButtonBuilder, ButtonStyle } = require('discord.js');
-const { eInv, eWeb } = require('../../emoji.json');
-const { colleiPFP } = require('../../image.json');
-const xen = process.env['xentriom']
+const { eInv, eWeb } = require('../../important/emoji.json');
+const { colleiPFP } = require('../../important/image.json');
+const xen = process.env.xentriom;
 const os = require('os');
 
 module.exports = {

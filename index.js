@@ -1,9 +1,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+const { token } = require('./important/config.json');
 
-const keep_alive = require('./keep_alive.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection();
@@ -37,5 +36,4 @@ for (const file of eventFiles) {
 	}
 }
 
-keep_alive;
 client.login(token);
