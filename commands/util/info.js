@@ -36,7 +36,7 @@ module.exports = {
                     var hsr = "";
                     var mc_user = "";
 
-                    switch (interaction.user.id) {
+                    switch (target.id) {
                         case xen:
                             gi = `§xᴇɴᴛʀɪx\nUID: 618382139\nAR: 60`;
                             hsr = "xentrix\nUID: 600177940\nTL: 55";
