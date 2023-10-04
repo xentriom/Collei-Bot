@@ -14,7 +14,7 @@ module.exports = {
             const user = interaction.client.users.cache.get(xen);
             const nodeVersion = "v18.12.1";
             const djsVersion = "v14.13.0";
-            const botVersion = "v2.0.1";
+            const botVersion = "v3.0.0";
             const aboutEmbed = new EmbedBuilder()
                 .setColor(0xA0B06C)
                 .setTitle('Collei Bot')
@@ -43,18 +43,6 @@ module.exports = {
             const row = new ActionRowBuilder().addComponents(docu, inv);
 
             await interaction.reply({ embeds: [aboutEmbed], components: [row] });
-
-            // function FormatSeconds(n) {
-            //     var day = parseInt(n / (24 * 3600));
-            //     n = n % (24 * 3600);
-            //     var hour = parseInt(n / 3600);
-            //     n %= 3600;
-            //     var minute = parseInt(n / 60);
-            //     n %= 60;
-            //     var second = parseInt(n);
-
-            //     return `${day}d ${hour}h ${minute}m ${second}s`;
-            // }
         }
         catch (error) {
             await interaction.reply({
