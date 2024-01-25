@@ -3,7 +3,7 @@ A Discord bot for the Collei Friendship Club discord server
 
 Note: Many files are not shown due to being ignored via .gitignore
 
---> https://app.gitbook.com/o/W2GCs8wSGO2YS3cXAYM5/s/wLzIqFBvozupA2qYDbFg/
+--> https://xentrix.gitbook.io/collei-bot/
 
 Resources used:
 
